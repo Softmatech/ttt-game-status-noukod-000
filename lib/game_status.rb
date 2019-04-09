@@ -58,5 +58,8 @@ def winner(board)
   won_var = won?(board)
     if won_var == false
       return nil
+    else if board[won_var[0]] == "X"
+      return "X"
+    end
     end
 end
