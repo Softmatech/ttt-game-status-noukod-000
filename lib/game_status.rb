@@ -23,7 +23,7 @@ if position_1 == "X" && position_2 == "X" && position_3 == "X" ||  position_1 ==
     return win_combination
 
  end
-    return false
+   }
   end
   
 def full?(board)
