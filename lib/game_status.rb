@@ -42,3 +42,8 @@ end
 end
 end
 end
+
+
+def over?(board)
+  
+end
