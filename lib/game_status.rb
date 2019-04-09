@@ -42,9 +42,3 @@ end
 end
 end
 end
-
-
-x_diagonal_won = [
-  "X", "O", "X", 
-  "O", "X", "O", 
-  "O", "O", "X"]
