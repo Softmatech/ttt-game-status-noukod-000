@@ -38,14 +38,19 @@ end
 end
 
 def draw?(board)
-  if full?(board) && !won?(board) 
+  if won?(board)
+  return false
+  else if full?(board) && !won?(board) 
   return true
 else if !won?(board) && !full?(board)
-  return false
-else if won?(board)
   return false
 end
 end
 end
 end
 
+
+x_diagonal_won = [
+  "X", "O", "X", 
+  "O", "X", "O", 
+  "O", "O", "X"]
