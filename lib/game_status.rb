@@ -17,8 +17,7 @@ end
     position_2 = board[win_index_2]
     position_3 = board[win_index_3]
     
-  all_empty = board.all? do |element|
-    element == " "
+
   end
   if all_empty == true
     return nil
