@@ -16,8 +16,10 @@ end
     position_2 = board[win_index_2]
     position_3 = board[win_index_3]
     
-    if all_empty = board.all? do |element|
+  all_empty = board.all? do |element|
     element == " "
+  end
+  if all_empty == true
     return nil
   else if position_1 == "X" && position_2 == "X" && position_3 == "X"
     return win_combination
@@ -26,7 +28,6 @@ else
   end
   end
   end
-end
 
 def full?(board)
  all_X_O = board.all? do |elem|
