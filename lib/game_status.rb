@@ -50,7 +50,7 @@ end
 end
 
 
-draw_board = [
+x_diagonal_won = [
   "X", "O", "X", 
-  "O", "X", "X", 
-  "O", "X", "O"]
+  "O", "X", "O", 
+  "O", "O", "X"]
