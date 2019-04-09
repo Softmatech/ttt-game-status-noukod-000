@@ -23,7 +23,6 @@ else
   end
   end
 end
-end
 
 def full?(board)
  all_X_O = board.all? do |elem|
