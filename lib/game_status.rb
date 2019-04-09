@@ -19,7 +19,6 @@ end
     if all_empty = board.all? do |element|
     element == " "
     return nil
-    
   else if position_1 == "X" && position_2 == "X" && position_3 == "X"
     return win_combination
 else
