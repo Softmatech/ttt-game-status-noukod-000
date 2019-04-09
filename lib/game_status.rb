@@ -28,8 +28,6 @@ else
     return false
   end
   
-  end
-
 def full?(board)
  all_X_O = board.all? do |elem|
   elem == "X" || elem == "O"
