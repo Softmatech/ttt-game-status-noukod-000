@@ -60,6 +60,9 @@ def winner(board)
       return nil
     else if board[won_var[0]] == "X"
       return "X"
+      else if board[won_var[0]] == "O"
+      return "O"
+    end
     end
     end
 end
