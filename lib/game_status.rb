@@ -57,6 +57,6 @@ end
 def winner(board)
   won_var = won?(board)
     if won_var == false
-      return false
+      return nil
     end
 end
